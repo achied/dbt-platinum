@@ -1,0 +1,15 @@
+packages:
+  - git: "https://github.com/achied/dbt-achied.git"
+    subdirectory: achied
+    revision: main
+    warn-unpinned: false
+
+  - git: "https://github.com/achied/dbt-cliff.git"
+    subdirectory: cliff
+    revision: main
+    warn-unpinned: false
+
+  - git: "https://github.com/achied/dbt-tools.git"
+    subdirectory: tools
+    revision: main
+    warn-unpinned: false
